@@ -11,8 +11,8 @@ const add = (counterValue) => {
   value.textContent = counterValue;
 };
 
-const buttonMinus = document.querySelector("button:first-of-type");
+const buttonMinus = document.querySelector('[data-action="decrement"]');
 buttonMinus.addEventListener("click", substract);
 
-const buttonPlus = document.querySelector("button:last-of-type");
+const buttonPlus = document.querySelector('[data-action="increment"]');
 buttonPlus.addEventListener("click", add);
