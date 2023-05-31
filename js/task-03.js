@@ -19,3 +19,5 @@ const galleryItems = images
 
 const gallery = document.querySelector(".gallery");
 gallery.insertAdjacentHTML("beforeend", galleryItems);
+gallery.style.display = "flex";
+gallery.style.gap = "10px";
