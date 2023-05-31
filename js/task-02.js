@@ -8,10 +8,21 @@ const ingredients = [
 ];
 
 const listOfIngredients = document.querySelector("#ingredients");
+let ingredientsTable = [];
 
-ingredients.forEach((element) => {
+listOfIngredients.forEach((element) => {
   const listItem = document.createElement("li");
   listItem.textContent = element;
   listItem.classList.add("item");
-  listOfIngredients.append(listItem);
+  ingredientsTable.push(element);
 });
+
+listOfIngredients.append(...ingredients);
+
+// const listOfIngredients = document.querySelector("#ingredients");
+// ingredients.forEach((element) => {
+//   const listItem = document.createElement("li");
+//   listItem.textContent = element;
+//   listItem.classList.add("item");
+//   listOfIngredients.append(listItem);
+// });
