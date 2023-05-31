@@ -1,12 +1,12 @@
 let counterValue = 0;
 const value = document.querySelector("#value");
 
-const substract = (counterValue) => {
+const substract = () => {
   counterValue -= 1;
   value.textContent = counterValue;
 };
 
-const add = (counterValue) => {
+const add = () => {
   counterValue += 1;
   value.textContent = counterValue;
 };
