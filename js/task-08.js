@@ -11,10 +11,7 @@ function handleSubmit(event) {
   if (email.value === "" || password.value === "") {
     return alert(message);
   } else {
-    return console.log(`Email: ${email.value}, Password: ${password.value}`);
+    return console.log(email.value, password.value);
   }
   event.currentTarget.reset();
 }
-
-
-{ email: cos, password: cos };
