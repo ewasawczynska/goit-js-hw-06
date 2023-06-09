@@ -11,7 +11,11 @@ function handleSubmit(event) {
   if (email.value === "" || password.value === "") {
     return alert(message);
   } else {
-    return console.log(email.value, password.value);
+    const data = {
+      email: email.value,
+      password: password.value,
+    };
+    console.log(data);
   }
   event.currentTarget.reset();
 }
