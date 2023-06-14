@@ -1,4 +1,4 @@
-# goit-js-hw-06
+https://ewasawczynska.github.io/goit-js-hw-06/
 
 Kryteria przyjęcia
 
