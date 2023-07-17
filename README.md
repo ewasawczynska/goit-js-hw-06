@@ -1,5 +1,8 @@
 https://ewasawczynska.github.io/goit-js-hw-06/
 
+Java Script. Moduł 06 - DOM. Zdarzenia
+
+
 Kryteria przyjęcia
 
 Utworzono repozytorium goit-js-hw-06.
